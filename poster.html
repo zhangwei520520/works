@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI海报设计 | 张伟作品集</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+
+font-family:"Inter","Microsoft YaHei";
+
+background:#f7f7f5;
+
+color:#37352f;
+
+line-height:1.9;
+
+}
+
+a{
+
+text-decoration:none;
+
+color:inherit;
+
+}
+
+img{
+
+display:block;
+
+width:100%;
+
+}
+
+nav{
+
+position:fixed;
+
+top:0;
+
+left:0;
+
+right:0;
+
+height:70px;
+
+background:rgba(255,255,255,.78);
+
+backdrop-filter:blur(18px);
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+border-bottom:1px solid rgba(0,0,0,.05);
+
+z-index:999;
+
+}
+
+.nav{
+
+width:1100px;
+
+display:flex;
+
+justify-content:space-between;
+
+align-items:center;
+
+}
+
+.logo{
+
+font-size:22px;
+
+font-weight:800;
+
+}
+
+.back{
+
+padding:10px 20px;
+
+background:#111;
+
+color:white;
+
+border-radius:10px;
+
+transition:.3s;
+
+}
+
+.back:hover{
+
+transform:translateY(-3px);
+
+}
+
+.container{
+
+width:min(1100px,92%);
+
+margin:auto;
+
+padding-top:120px;
+
+}
+
+.hero{
+
+padding:80px 0 70px;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:58px;
+
+margin-bottom:18px;
+
+}
+
+.hero h2{
+
+font-size:24px;
+
+font-weight:500;
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+.hero p{
+
+max-width:760px;
+
+margin:auto;
+
+font-size:18px;
+
+color:#777;
+
+}
+
+.case{
+
+background:white;
+
+padding:45px;
+
+border-radius:20px;
+
+margin-bottom:60px;
+
+box-shadow:0 8px 30px rgba(0,0,0,.04);
+
+}
+
+.case-title{
+
+font-size:36px;
+
+margin-bottom:15px;
+
+}
+
+.case-desc{
+
+font-size:17px;
+
+color:#666;
+
+margin-bottom:25px;
+
+}
+
+.cover{
+
+width:100%;
+
+height:620px;
+
+border-radius:18px;
+
+overflow:hidden;
+
+background:#efefef;
+
+margin-bottom:30px;
+
+}
+
+.cover img{
+
+height:100%;
+
+object-fit:cover;
+
+transition:.5s;
+
+}
+
+.cover:hover img{
+
+transform:scale(1.03);
+
+}
+
+.info{
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+gap:18px;
+
+margin-top:25px;
+
+margin-bottom:35px;
+
+}
+
+.card{
+
+padding:20px;
+
+background:#fafafa;
+
+border-radius:14px;
+
+}
+
+.card span{
+
+display:block;
+
+font-size:13px;
+
+color:#888;
+
+margin-bottom:8px;
+
+}
+
+.process{
+
+display:flex;
+
+flex-wrap:wrap;
+
+gap:12px;
+
+margin-top:20px;
+
+}
+
+.tag{
+
+padding:8px 18px;
+
+background:#111;
+
+color:white;
+
+border-radius:999px;
+
+font-size:13px;
+
+}
+
+@media(max-width:900px){
+
+.hero h1{
+
+font-size:42px;
+
+}
+
+.info{
+
+grid-template-columns:1fr;
+
+}
+
+.cover{
+
+height:320px;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<div class="nav">
+
+<div class="logo">
+
+AI Poster
+
+</div>
+
+<a href="index.html" class="back">
+
+← 返回首页
+
+</a>
+
+</div>
+
+</nav>
+
+<div class="container">
+
+<section class="hero">
+
+<h1>
+
+AI海报设计作品集
+
+</h1>
+
+<h2>
+
+AIGC Poster Collection
+
+</h2>
+
+<p>
+
+本页面收录了本人在 AI 商业设计方向的代表作品，围绕品牌传播、文化创意与营销设计展开，
+结合 Midjourney、即梦AI、Photoshop 等工具完成创作，
+从创意构思、Prompt 编写到视觉优化，形成完整的 AIGC 创作流程。
+
+</p>
+
+</section>
+
+<!-- 第一件作品 -->
+
+<section class="case">
+
+<h2 class="case-title">
+
+01｜自心佛成佛记
+
+</h2>
+
+<p class="case-desc">
+
+《自心佛成佛记》是一组围绕东方文化与佛教哲学创作的 AI 海报作品。
+项目通过 AIGC 技术构建具有电影感的视觉画面，将轮回、觉悟、自我成长等概念融入设计，
+在保证艺术表达的同时，增强故事性与视觉冲击力。
+
+</p>
+
+<div class="cover">
+
+<!-- 以后把图片放到 images 文件夹 -->
+
+<img src="自心佛成佛记.jpg" alt="自心佛成佛记">
+
+</div>
+
+<div class="info">
+
+<div class="card">
+
+<span>项目类型</span>
+
+AI文化创意海报
+
+</div>
+
+<div class="card">
+
+<span>设计工具</span>
+
+Midjourney / 即梦AI / Photoshop
+
+</div>
+
+<div class="card">
+
+<span>完成时间</span>
+
+2026
+
+</div>
+
+</div>
+
+<h3>
+
+设计流程
+
+</h3>
+
+<div class="process">
+
+<div class="tag">需求分析</div>
+
+<div class="tag">创意策划</div>
+
+<div class="tag">Prompt设计</div>
+
+<div class="tag">AI生成</div>
+
+<div class="tag">Photoshop优化</div>
+
+<div class="tag">最终输出</div>
+
+</div>
+
+</section>
+<!-- 第二件作品 -->
+
+<section class="case">
+
+<h2 class="case-title">
+
+02｜洁柔直播封面设计
+
+</h2>
+
+<p class="case-desc">
+
+《洁柔直播封面设计》围绕直播电商场景展开，通过高识别度的视觉设计，
+强化品牌曝光与促销信息传递。作品重点突出人物主体、产品卖点和活动信息，
+利用色彩对比和版式层级提升点击率，使直播封面更加符合新媒体传播特点。
+
+</p>
+
+<div class="cover">
+
+<!-- 图片位置 -->
+<img src="洁柔直播封面设计.png" alt="洁柔直播封面设计">
+
+</div>
+
+<div class="info">
+
+<div class="card">
+
+<span>项目类型</span>
+
+直播封面设计
+
+</div>
+
+<div class="card">
+
+<span>设计工具</span>
+
+Photoshop / AI辅助设计
+
+</div>
+
+<div class="card">
+
+<span>设计方向</span>
+
+品牌宣传 · 电商营销
+
+</div>
+
+</div>
+
+<h3>
+
+设计亮点
+
+</h3>
+
+<div class="process">
+
+<div class="tag">直播视觉</div>
+
+<div class="tag">品牌设计</div>
+
+<div class="tag">电商营销</div>
+
+<div class="tag">信息层级</div>
+
+<div class="tag">AI辅助创作</div>
+
+<div class="tag">商业设计</div>
+
+</div>
+
+<br>
+
+<p style="color:#666;font-size:16px;">
+
+整个作品采用直播平台常见的高点击率版式，通过合理的信息层级和视觉焦点设计，
+使用户能够快速获取品牌、活动及产品信息，在保证视觉美观的同时提升传播效果。
+
+</p>
+
+</section>
+
+
+
+
+
+<!-- 第三件作品 -->
+
+<section class="case">
+
+<h2 class="case-title">
+
+03｜植愈·家的味道
+
+</h2>
+
+<p class="case-desc">
+
+《植愈·家的味道》是一组围绕家庭情感与品牌价值打造的商业广告海报。
+作品以植物洁净力与家庭温暖为创意核心，通过柔和色彩、自然元素以及情感化表达，
+塑造具有亲和力的品牌形象，使产品功能与品牌理念形成统一视觉语言。
+
+</p>
+
+<div class="cover">
+
+<!-- 图片位置 -->
+
+<img src="植愈.家的味道.jpg" alt="植愈·家的味道">
+
+</div>
+
+<div class="info">
+
+<div class="card">
+
+<span>项目类型</span>
+
+品牌广告设计
+
+</div>
+
+<div class="card">
+
+<span>设计工具</span>
+
+Photoshop / Midjourney / AI辅助设计
+
+</div>
+
+<div class="card">
+
+<span>关键词</span>
+
+家庭 · 治愈 · 品牌传播
+
+</div>
+
+</div>
+
+<h3>
+
+创意关键词
+
+</h3>
+
+<div class="process">
+
+<div class="tag">家庭</div>
+
+<div class="tag">植物治愈</div>
+
+<div class="tag">品牌故事</div>
+
+<div class="tag">视觉营销</div>
+
+<div class="tag">商业广告</div>
+
+<div class="tag">AI设计</div>
+
+</div>
+
+<br>
+
+<p style="color:#666;font-size:16px;">
+
+设计过程中重点强调品牌温度与家庭陪伴感，通过视觉故事建立消费者情感连接，
+同时结合 AI 创作流程，提高创意表达效率，使广告兼具商业传播价值与艺术表现力。
+
+</p>
+
+</section>
+<!-- 项目总结 -->
+
+<section class="case">
+
+<h2 class="case-title">
+
+项目总结
+
+</h2>
+
+<p class="case-desc">
+
+本作品集收录了本人在 AI 商业海报设计方向的代表作品，从文化创意、品牌传播到商业营销，均结合 AIGC 技术完成创作。整个创作流程涵盖前期策划、Prompt 编写、AI 图像生成、后期优化及视觉排版，充分体现了 AI 在设计领域中的实践应用能力。
+
+</p>
+
+<div class="info">
+
+<div class="card">
+
+<span>代表作品</span>
+
+《自心佛成佛记》<br>
+《洁柔直播封面设计》<br>
+《植愈·家的味道》
+
+</div>
+
+<div class="card">
+
+<span>主要工具</span>
+
+ChatGPT<br>
+Midjourney<br>
+即梦AI<br>
+Photoshop
+
+</div>
+
+<div class="card">
+
+<span>能力体现</span>
+
+AI绘图<br>
+品牌设计<br>
+商业广告<br>
+视觉创意
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<footer>
+
+<h2>
+
+感谢浏览
+
+</h2>
+
+<p>
+
+如果您对我的作品感兴趣，欢迎与我联系。
+
+</p>
+
+<div class="contact">
+
+<div>
+
+📧 2337689410@qq.com
+
+</div>
+
+<div>
+
+📱 15978932715
+
+</div>
+
+</div>
+
+<a class="home-btn" href="index.html">
+
+← 返回首页
+
+</a>
+
+</footer>
+
+</div>
+
+<style>
+
+footer{
+
+margin-top:80px;
+
+padding:80px 20px;
+
+text-align:center;
+
+color:#666;
+
+}
+
+footer h2{
+
+font-size:34px;
+
+margin-bottom:20px;
+
+}
+
+footer p{
+
+font-size:18px;
+
+margin-bottom:30px;
+
+}
+
+.contact{
+
+display:flex;
+
+justify-content:center;
+
+gap:50px;
+
+flex-wrap:wrap;
+
+margin-bottom:40px;
+
+font-size:17px;
+
+}
+
+.home-btn{
+
+display:inline-block;
+
+padding:14px 32px;
+
+background:#111;
+
+color:white;
+
+border-radius:12px;
+
+transition:.35s;
+
+}
+
+.home-btn:hover{
+
+transform:translateY(-4px);
+
+box-shadow:0 12px 30px rgba(0,0,0,.15);
+
+}
+
+.fade{
+
+opacity:0;
+
+transform:translateY(50px);
+
+transition:.8s;
+
+}
+
+.fade.show{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+.lightbox{
+
+position:fixed;
+
+left:0;
+
+top:0;
+
+width:100%;
+
+height:100%;
+
+background:rgba(0,0,0,.85);
+
+display:none;
+
+justify-content:center;
+
+align-items:center;
+
+z-index:99999;
+
+cursor:pointer;
+
+}
+
+.lightbox img{
+
+max-width:90%;
+
+max-height:90%;
+
+border-radius:14px;
+
+box-shadow:0 20px 60px rgba(0,0,0,.4);
+
+}
+
+</style>
+
+<div class="lightbox" id="lightbox">
+
+<img id="lightboxImg">
+
+</div>
+
+<script>
+
+const observer=new IntersectionObserver((entries)=>{
+
+entries.forEach(entry=>{
+
+if(entry.isIntersecting){
+
+entry.target.classList.add("show");
+
+}
+
+});
+
+});
+
+document.querySelectorAll(".case").forEach(item=>{
+
+item.classList.add("fade");
+
+observer.observe(item);
+
+});
+
+const lightbox=document.getElementById("lightbox");
+
+const lightboxImg=document.getElementById("lightboxImg");
+
+document.querySelectorAll(".cover img").forEach(img=>{
+
+img.onclick=function(){
+
+lightbox.style.display="flex";
+
+lightboxImg.src=this.src;
+
+}
+
+});
+
+lightbox.onclick=function(){
+
+lightbox.style.display="none";
+
+}
+
+</script>
+
+</body>
+
+</html>
